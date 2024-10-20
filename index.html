@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>ADMIN PANEL</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="logo">
+          <a href="./_index.html">
+            <img style="width: 180px" src="./img/222222.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="logo__text text-center">
+          <h1 style="font-size: 46px">
+            A D M I N <span style="padding-left: 30px">P A N E L</span>
+          </h1>
+        </div>
+        <div class="logo_page">
+          <a href="./_index.html">
+            <i
+              style="font-size: 60px; color: #fff"
+              class="fa-solid fa-house"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="choise">
+      <div class="container">
+        <h3>Ch o i c e</h3>
+        <div class="all">
+          <div class="creat">
+            <button data-toggle="modal" data-target="#exampleModal">
+              CREATE NEW CARDS
+            </button>
+          </div>
+          <div class="creat">
+            <button>EDITE CARDS</button>
+          </div>
+
+          <div class="creat">
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#fullscreenModal"
+            >
+              DELETE CARDS
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Create cards</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form class="form">
+                <div class="inpit__card">
+                  <label for="1">Title</label>
+                  <input id="title__id" type="text" placeholder="Inter..." />
+                </div>
+                <div class="inpit__card">
+                  <label for="1">Price</label>
+                  <input id="price__id" type="text" placeholder="Inter..." />
+                </div>
+                <div class="inpit__card">
+                  <label for="1">Rate</label>
+                  <input id="rate__id" type="text" placeholder="Inter..." />
+                </div>
+                <div class="inpit__card1">
+                  <label for="1">Img</label>
+                  <input
+                    class="file__int"
+                    type="file"
+                    id="fileInput"
+                    name="image"
+                    accept="image/*"
+                  />
+                </div>
+              </form>
+
+              <select name="name" id="select_id">
+                <option value="1">Catagory</option>
+                <option value="2">Elektronika</option>
+                <option value="3">Maishiy texnika</option>
+                <option value="4">Kiyim</option>
+                <option value="5">Poyabzallar</option>
+                <option value="6">Aksessuarlar</option>
+                <option value="7">Goʻzallik va parvarish</option>
+                <option value="8">Salomatlik</option>
+              </select>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <!-- bu Button send qiladigan -->
+              <button id="send__btn" type="button" class="btn btn-primary">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+
+    <!-- Full-Screen Modal -->
+
+    <div
+      class="modal fade"
+      id="fullscreenModal"
+      tabindex="-1"
+      aria-labelledby="fullscreenModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="fullscreenModalLabel">DELETE CARDS</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                obcaecati dolores consequatur magni alias explicabo eligendi
+                architecto non impedit rerum rem corrupti voluptatibus excepturi
+                error quidem delectus, iusto, facere unde!
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Full-Screen Modal -->
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>

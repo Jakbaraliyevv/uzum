@@ -1,0 +1,69 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "title": "NIVEA MEN erkaklar uchun dezodorant sprey, qora va oq uchun ko'rinmas himoya, 150 ml",
+      "img": "https://images.uzum.uz/coj2tsv0sttt9lm4kse0/original.jpg",
+      "price": "29999",
+      "rate": "4,9",
+      "category": "Aksessuarlar"
+    },
+    {
+      "id": "2",
+      "title": "Knopkali telefon Nokia 6310 DS TA-1400",
+      "img": "https://images.uzum.uz/cq03qhr6eisq2rke2s7g/original.jpg",
+      "price": "249000",
+      "rate": "3.7",
+      "category": "Elektronika"
+    },
+    {
+      "id": "3",
+      "title": "Kir yuvish mashinasi yarim avtomatik Artel ART-TG90P City 03, 9 kg",
+      "img": "https://images.uzum.uz/crpp8ruvip07shn62gug/original.jpg",
+      "price": "1499000",
+      "rate": "5",
+      "category": "Maishiy texnika"
+    },
+    {
+      "id": "4",
+      "title": "Kuz, qish, bahor uchun issiq ayollar nimchasi",
+      "img": "https://images.uzum.uz/cs7715r4nkdhfdv4rnj0/original.jpg",
+      "price": "189000",
+      "rate": "5",
+      "category": "Kiyim"
+    },
+    {
+      "id": "5",
+      "title": "Krossovkalar kundalik Force, Dunk",
+      "img": "https://images.uzum.uz/crl973qjot51rkb1qcg0/original.jpg",
+      "price": "499000",
+      "rate": "4,5",
+      "category": "Poyabzallar"
+    },
+    {
+      "id": "6",
+      "title": "Erkaklar uchun ryukzak CAT",
+      "img": "https://images.uzum.uz/cqh7b24qvsse8let86vg/original.jpg",
+      "price": "413000",
+      "rate": "5",
+      "category": "Aksessuarlar"
+    },
+    {
+      "id": "7",
+      "title": "Nam salfetkalar Oila tanlovi, Delight, 120 dona",
+      "img": "https://images.uzum.uz/cjvvonkjvf2qegt3bde0/original.jpg",
+      "price": "10000",
+      "rate": "4,9",
+      "category": "Goʻzallik va parvarish"
+    },
+    {
+      "id": "8",
+      "title": "NOW Foods, Vitamin D3 5000 ME, 10000 ME yumshoq kapsulalar, Halol",
+      "img": "https://images.uzum.uz/cqkegovfrr8a72r6cb50/original.jpg",
+      "price": "90000",
+      "rate": "5",
+      "category": "Salomatlik"
+    }
+   
+  ]
+}
